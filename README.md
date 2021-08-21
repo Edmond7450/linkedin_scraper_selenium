@@ -1,8 +1,8 @@
-# scrape_linkedin
+# linkedin_scraper
 
 ## Introduction
 
-`scrape_linkedin` is a python package to scrape all details from public LinkedIn
+`linkedin_scraper` is a python package to scrape all details from public LinkedIn
 profiles, turning the data into structured json. You can scrape Companies
 and user profiles with this package.
 
@@ -13,7 +13,7 @@ unauthenticated or unusual requests
 
 <!--ts-->
 
-- [scrape_linkedin](#scrapelinkedin)
+- [linkedin_scraper](#scrapelinkedin)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
