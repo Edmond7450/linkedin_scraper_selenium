@@ -43,11 +43,11 @@ unauthenticated or unusual requests
 
 ### Install with pip
 
-Run `pip install git+git://github.com/austinoboyle/scrape-linkedin-selenium.git`
+Run `pip install git+git://github.com/Edmond7450/linkedin_scraper_selenium.git`
 
 ### Install from source
 
-`git clone https://github.com/austinoboyle/scrape-linkedin-selenium.git`
+`git clone https://github.com/Edmond7450/linkedin_scraper_selenium.git`
 
 Run `python setup.py install`
 
@@ -88,7 +88,7 @@ environment variable** if both are set.
 
 ## Examples
 
-See [`/examples`](https://github.com/austinoboyle/scrape-linkedin-selenium/tree/master/examples)
+See [`/examples`](https://github.com/Edmond7450/linkedin_scraper_selenium/tree/master/examples)
 
 ## Usage
 
@@ -113,8 +113,8 @@ Options:
 
 Examples:
 
--   Get Austin O'Boyle's profile info: `$ scrapeli --user=austinoboyle`
--   Get only the skills of Austin O'Boyle: `$ scrapeli --user=austinoboyle -a skills`
+-   Get Austin O'Boyle's profile info: `$ scrapeli --user=edmond-dantes-a985081b9`
+-   Get only the skills of Austin O'Boyle: `$ scrapeli --user=edmond-dantes-a985081b9 -a skills`
 -   Parse stored html profile and save json output: `$ scrapeli -i /path/file.html -o output.json`
 
 ### Python Package
@@ -127,7 +127,7 @@ Use `ProfileScraper` component to scrape profiles.
 from scrape_linkedin import ProfileScraper
 
 with ProfileScraper() as scraper:
-    profile = scraper.scrape(user='austinoboyle')
+    profile = scraper.scrape(user='edmond-dantes-a985081b9')
 print(profile.to_dict())
 ```
 
@@ -276,4 +276,4 @@ scrape_in_parallel(
 ## Issues
 
 Report bugs and feature requests
-[here](https://github.com/austinoboyle/scrape-linkedin-selenium/issues).
+[here](https://github.com/Edmond7450/linkedin_scraper_selenium/issues).
